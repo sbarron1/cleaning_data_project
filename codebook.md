@@ -59,12 +59,15 @@ Mag: the magnitude of these three-dimensional signals were calculated using the 
 I believe this dataset is tidy, According to Hadley Wickham, tidy data:
 
 1. *Each variable forms a column.*
+
 	While it is clear that the first two columns are variables, the measurement columns are more ambiguous and there are several ways of dealing with them that are consistent with this principle. I choose to treat each measurement type as a variable rather then a value. This decision is based on how they are described in the original datasets readme and features_info, they are a set of measurements that describe an experiment. Or in the case of this data set, they describe the average measurements for several experiments.
 	
 2. *Each observation forms a row.*
+
 	Each row is the average of several experiments of an activity (e.g. WALKING) for a subject. 
 	
 3. *Each type of observational unit forms a table.*
+
 	This condition would be broken if additional subject variables were brought in such as age or gender. These variables should be stored in a separte table (subject) linked to the present dataset by subject id.
 	
 ## The full list of averaged measurements, grouped by measurement type: 
