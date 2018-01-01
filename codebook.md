@@ -1,3 +1,4 @@
+# Codebook: activity_data_tidy.txt
 The tidied and summarized Human Activity Recognition Using Smartphones (HAR) Dataset consists of 68 variable.
 
 From the original codebook:
