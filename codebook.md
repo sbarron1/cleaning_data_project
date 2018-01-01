@@ -1,7 +1,7 @@
 The tidied and summarized Human Activity Recognition Using Smartphones (HAR) Dataset consists of 68 variable.
 
 From the original codebook:
-==================================================================
+
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
@@ -28,11 +28,11 @@ For each record it is provided:
 
 
 
-Changes made:
+# Changes made:
 
 Each row is a summary the ,average of the mean and standard deviation (Std) for various measurements, of several experiments measuring a particular activity for a particular subject.
 
-Variables = 
+## Variables = 
 
 subject: the id given to a particular subject/volunteer. Numbered 1 to 30
 
@@ -55,13 +55,14 @@ Mean or Std: Whether the measure is the average of the Mean or the Std of an act
 
 X,Y,Z: the axis of the measurement.
  
-Two other tokens are used in some measurements: 
+## Two other tokens are used in some measurements: 
 (explanation taken directly from original dataset codebook)
 
 Jerk: the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ)
 
 Mag:  the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
 
+##tidiness
 I believe this dataset is tidy, According to Hadley Wickham, tidy data:
 
 1. Each variable forms a column.
