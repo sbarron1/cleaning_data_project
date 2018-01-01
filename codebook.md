@@ -32,6 +32,7 @@ subject: the id given to a particular subject/volunteer. Numbered 1 to 30
 activity: the activities that were monitored in the experiments. They are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 The remaining 66 variables are the average of the mean and standard deviation of experimental measurements.
+All measurements are normalised between -1 and 1. This was done in the original dataset.
 The variable names consist of a series of tokens, in camelcase, that describe the measurement
 
 The tokens that are used are explained here. Tokens that have an either/or relationship are described together.
